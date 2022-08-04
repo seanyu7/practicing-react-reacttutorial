@@ -17,6 +17,7 @@ function App() {
   const [count, setCount] = useState(0);
   const yucodeInfo = useContext(YucodeInfoContext);
   const ref = useRef();
+  /* useRefんお使い方について */
 
   const handleClick = () => {
     setCount(count + 1);
